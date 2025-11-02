@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #da7f60;
+  padding: 50px 25px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+    padding: 10px;
+}
+
+/* Style the content */
+.article-container {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f1f1f1;
+}
+
+.article-box {
+  flex: 1 1 0;
+  width: 30%;
+}
+
+.article-box h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.article-box p {
+  margin: 20px ;
+}
+
+h1 {
+    text-align: center;
+    color: #0f99a6;
+}
+p {
+    color: #04494e;
+}
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Recipes</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://tastesbetterfromscratch.com/easy-tiramisu/" target="_blank">Tiramisu</a></li>
+      <li><a href="https://tastesbetterfromscratch.com/super-soft-sugar-cookies/" target="_blank">Cookie</a></li>
+      <li><a href="https://tastesbetterfromscratch.com/old-fashioned-sour-cream-donuts/" target="_blank">Donut</a></li>
+    </ul>
+  </nav>
+
+    <div class="article-container">
+        <div class="article-box">
+            <h1><b>Tiramisu</b></h1>
+            <p><b>Mix creamy filling. </b>Beat the mascarpone, cream, sugar, and vanilla together until stiff peaks.</p>
+            <p><b>Dip lady fingers. </b>Add the espresso and liqueur (if using) to a shallow bowl and dip the lady fingers on both sides (don't let them soak–just a quick dip!)</p>
+            <p><b>Layer mascarpone. </b>Smooth a layer of the mascarpone/whipped cream mixture on top of the lady fingers.</p>
+            <p><b>Repeat. </b>Add another layer of lady fingers (dipped in coffee and liqueur) and another layer of cheese mixture. Dust with cocoa powder.</p>
+        </div>
+        <div class="article-box">
+            <h1><b>Cookie</b></h1>
+            <p><b>Make Cookie Dough. </b>Cream together the shortening/butter and sugar then mix in eggs, milk, and vanilla.</p>
+            <p><b>Roll Out. </b>Dust counter with flour and use a rolling pin to roll cookies out to 1/2-¾ inch thick.</p>
+            <p><b>Bake</b> at 350°F (180°C) for 8-11 minutes.</p>
+        </div>
+        <div class="article-box">
+            <h1><b>Donut</b></h1>
+            <p><b>Make Dough. </b>Sift cake flour, baking powder, salt, and nutmeg in a small bowl. In a large bowl, beat butter and sugar, then add egg yolks, mixing well.</p>
+            <p><b>Cut Out Donuts.</b>Roll out donut dough to about ½ inch thickness on a floured surface.</p>
+            <p><b>Fry Donuts.</b>Heat 2 inches of canola oil to 325°F in a heavy bottomed pot.</p>
+            <p><b>Glaze. </b>Whisk all glaze ingredients together in a shallow bowl.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+  <a href="https://github.com/Po11uxx/SWE245P/">Xinyi Xu</a>
+</footer>
+
+</body>
+</html>
+
