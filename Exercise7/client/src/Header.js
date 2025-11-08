@@ -5,7 +5,7 @@ function Header() {
         <>
             <div className="header">
                 <a href="#default" className="logo">
-                    CompanyLogo
+                    Xinyi's Page
                 </a>
                 <div className="headerRight">
                     <a className="active" href="#home">

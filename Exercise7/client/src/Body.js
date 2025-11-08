@@ -2,7 +2,7 @@ import './Body.css'
 
 function Body() {
     return (
-        <>
+        <div className="body-container">
             <div className="sidenav">
                 <a href="#about">About</a>
                 <a href="#services">Services</a>
@@ -11,27 +11,12 @@ function Body() {
             </div>
 
             <div className="main">
-                <h2>Sidebar</h2>
-                <p>This sidebar is of full height (100%) and always shown.</p>
+                <h2>Welcome to Xinyi's Page!</h2>
+                <p>This page is built from React.</p>
                 <p>Scroll down the page to see the result.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                    concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur
-                    eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae
-                    voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                    concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur
-                    eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae
-                    voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                    concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur
-                    eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae
-                    voluptatibus.</p>
-                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                    concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur
-                    eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae
-                    voluptatibus.</p>
+                <p></p>
             </div>
-        </>
+        </div>
     );
 }
 
