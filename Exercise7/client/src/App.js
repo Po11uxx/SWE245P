@@ -1,19 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
-import './Header.css'
-import './Footer.css'
-import './Body.css'
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from './Header';
 import Footer from './Footer';
-import Body from './Body';
+import Sidebar from './Sidebar';
+import LandingView from './LandingView';
+import SecondDataView from "./SecondDataView";
 
 function App() {
     return (
         <div className="App">
-            <Header />
-            <Body />
-            <Footer />
+            <BrowserRouter>
+                <Header />
+                <div className="content-wrapper">
+                    <Sidebar />
+                    <div className="main-content">
+                        <Routes>
+                            <Route index element={<LandingView />} />
+                            <Route path="seconddataview" element={<SecondDataView />}></Route>
+                        </Routes>
+                    </div>
+                </div>
+                <Footer />
+            </BrowserRouter>
         </div>
     );
 }

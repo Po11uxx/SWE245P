@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+.content-wrapper {
+    display: flex;
+    flex: 1;
+    min-height: calc(100vh - 120px); /* 预留 header + footer 高度 */
+    background-color: #f7f7f7;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: aliceblue;
+    overflow-y: auto;
+}

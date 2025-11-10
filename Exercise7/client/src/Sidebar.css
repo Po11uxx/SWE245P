@@ -32,15 +32,3 @@ body {
     color: #fff;
 }
 
-/* Main content */
-.main {
-    flex: 1;
-    padding: 20px;
-    font-size: 18px;
-    background-color: aliceblue;
-    text-align: left;
-}
-
-.main h2 {
-    text-align: center;
-}

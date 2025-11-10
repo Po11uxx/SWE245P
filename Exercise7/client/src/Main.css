@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 50px); /* 预留 header + footer 高度 */
+    padding-left: 160px;
+}
+
+/* Main content */
+.main {
+    flex: 1;
+    padding: 20px;
+    font-size: 18px;
+    background-color: aliceblue;
+    text-align: left;
+}
+
+.main h2 {
+    text-align: center;
+}
