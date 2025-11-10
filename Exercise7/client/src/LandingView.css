@@ -1,0 +1,39 @@
+/* Fade-in and Fade-out animation */
+.fade-enter {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms ease, transform 500ms ease;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 500ms ease, transform 500ms ease;
+}
+
+/*font*/
+h2 {
+    color: slateblue;
+    font-size: xx-large;
+    text-shadow: cornflowerblue 3px 2px 5px;
+}
+
+p {
+    padding-left: 50px;
+    color: indigo;
+}
+
+/* Error */
+.error {
+    color: red;
+    font-weight: bold;
+}
