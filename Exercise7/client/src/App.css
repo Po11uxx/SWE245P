@@ -50,3 +50,8 @@
     background-color: aliceblue;
     overflow-y: auto;
 }
+
+h1 {
+    color: indigo;
+    margin-top: 100px;
+}
