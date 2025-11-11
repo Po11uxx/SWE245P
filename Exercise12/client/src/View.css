@@ -1,0 +1,77 @@
+
+/* Style the content */
+.article-container {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+
+    min-height: calc(100vh - 120px);
+    justify-content: space-around;
+    background-color: #f1f1f1;
+}
+
+.article-box {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.article-box h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.article-box p {
+    margin: 10px ;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.image-box {
+    display: flex;
+    flex: 1 1 0;
+    width: 100%;
+    margin: 20px
+}
+
+.image-box img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    margin:30px auto;
+    margin-bottom: 10px;
+}
+
+.image-card {
+    text-align: center;
+}
+
+.image-card figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+}
+
+.image-box img:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: center;
+    color: #0f99a6;
+    margin-top: 40px;
+}
+p {
+    color: #04494e;
+}
+
+.welcome-words p {
+    font-size: 30px;
+    margin-left: 50px;
+}

@@ -1,0 +1,21 @@
+/* Style the navigation menu */
+nav {
+    width: 200px;
+    background-color: thistle;
+    padding-top: 80px;
+    color: white;
+    flex-shrink: 0;
+    font-family: "Gujarati Sangam MN", cursive;
+    font-weight: bold;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
